@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1B2632;
+  font-family: "Manrope", sans-serif;
+}
+
+main {
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  background-color: #2C3E52;
+  max-width: 600px;
+  min-height: 40vh;
+  
+  padding: 30px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.advice-div {
+  color: #00FFA1;
+}
+
+.quote-div {
+  font-size: 28px;
+  font-weight: 800;
+  color: #CEE3E9;
+}
+
+.icon-div {
+  position: absolute;
+  bottom: -30px; /* Adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10; /* Ensure this value is higher than other elements */
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #00FFA1;
+}
+
+.icon-button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+}
+
+.icon-button img {
+  width: 25px; /* Adjust this value as needed */
+  height: 25px; /* Adjust this value as needed */
+  vertical-align: middle; /* Align the image to the middle */
+}
+
+.icon-button:hover {
+  box-shadow: 0 0 15px #00FFA1; /* Neon green shadow */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.attribution a {
+  color: #00ffa1;
+}
+
+@media (max-width: 530px) {
+  .content-wrapper{
+    width: max-content;
+    height: max-content;
+  }
+}
+
+@media (max-width:375px) {
+  .content-wrapper{
+    width: max-content;
+    height: max-content;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
