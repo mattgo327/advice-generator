@@ -37,8 +37,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add live site URL here](https://github.com/mattgo327/advice-generator)
-- Live Site URL: [Add live site URL here](https://yourquotesgenerator327.netlify.app/)
+- Solution URL: [Github](https://github.com/mattgo327/advice-generator)
+- Live Site URL: [Netlify](https://yourquotesgenerator327.netlify.app/)
 
 ## My process
 
